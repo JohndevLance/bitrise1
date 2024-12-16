@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "Bitrise1",
-    "slug": "Bitrise1",
+    "slug": "bitrise-app-1",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -36,6 +36,15 @@
     ],
     "experiments": {
       "typedRoutes": true
-    }
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "163b7e8b-e6e5-449f-b0f2-39283f539004"
+      }
+    },
+    "owner": "jgachunga"
   }
 }
